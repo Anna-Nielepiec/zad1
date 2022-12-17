@@ -29,7 +29,9 @@ public class BookServiceImpl {
 
     public Book getBookById(Long bookId) {
         //return bookRepository.getBookById(bookId);
-        return getBooks().stream().filter(book -> book.getId() == bookId).findFirst().get();
+        return getBooks()
+                .stream()
+                .filter(book -> book.getId() == bookId).findFirst().get();
     }
 
     public boolean addBook(Book book) {

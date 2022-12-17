@@ -1,16 +1,16 @@
 package org.example.domain;
 
-public class Books {
+public class Book {
 
     private String title;
     private String author;
     private int id;
     private int yearOfPublishment;
 
-    public Books() {
+    public Book() {
     }
 
-    public Books(String title, String author, int id, int yearOfPublishment) {
+    public Book(String title, String author, int id, int yearOfPublishment) {
         this.title = title;
         this.author = author;
         this.id = id;

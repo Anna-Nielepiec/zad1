@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6135f2a1-bd9e-4e38-91f6-e52f976e1c47" name="Changes" comment="pliki nauka">
-      <changelist_data name="Adam" email="adomagala87@gmail.com" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/EmployeeFoodRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/EmployeeFoodRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/FoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/FoodRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,56 @@
       <option name="project" value="LOCAL" />
       <updated>1671491500405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pliki nauka">
+      <created>1671491612405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491612405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pliki nauka">
+      <created>1671491627074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491627074</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pliki nauka">
+      <created>1671491650763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491650763</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pliki nauka">
+      <created>1671491686332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491686332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pliki nauka">
+      <created>1671491738397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491738397</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pliki nauka">
+      <created>1671491804337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491804337</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pliki nauka">
+      <created>1671491817183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671491817183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

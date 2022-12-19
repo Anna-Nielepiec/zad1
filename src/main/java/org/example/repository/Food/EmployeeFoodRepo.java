@@ -15,5 +15,5 @@ public interface EmployeeFoodRepo {
 
     boolean deleteOrderFood(Long foodId);
 
-    boolean addFood(Long foodId);
+    boolean addFood(Food food);
 }

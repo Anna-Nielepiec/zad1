@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestController
+@RestController("/zwierzeta")
 public class GreetingController {
 
-    @GetMapping("/zwierzeta")
+    @GetMapping
     public List<Greeting> getGreeting() {
 
         Greeting krowa = new Greeting(3l,"krowa");
@@ -22,7 +22,7 @@ public class GreetingController {
         return toList(krowa);
     }
 
-    @PostMapping("/zwierzeta")
+    @PostMapping
     public boolean postGreeting() {
 
 

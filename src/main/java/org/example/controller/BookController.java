@@ -8,34 +8,34 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.ArrayList;
 
-@RestController
+@RestController("/books")
 public class BookController {
 
     @Autowired
     private BookServiceImpl bookService;
 
-    @GetMapping("/books")
+    @GetMapping
     public List<Book> getBooks() {
         return bookService.getBooks();
     }
 
-    @GetMapping("/books/{bookId}")
+    @GetMapping("/{bookId}")
     public Book getBooks(@PathVariable Long bookId) {
         return bookService.getBookById(bookId);
     }
 
-    @PostMapping("/books")
+    @PostMapping
     public boolean postBooks(@ModelAttribute Book book) {
         return bookService.addBook(book);
     }
 
-    @DeleteMapping("/books/{bookId}")
+    @DeleteMapping("/{bookId}")
     public boolean deleteBooks(@PathVariable Long bookId) {
         return bookService.deleteBook(bookId);
     }
 
 
-    @PutMapping("/books")
+    @PutMapping
     public boolean putBooks() {
         return true;
     }

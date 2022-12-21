@@ -13,7 +13,7 @@ public interface CustomerFoodRepo {
 
     boolean orderFood(Food food);
 
-    boolean deleteOrderFood(Long foodId);
+    boolean deleteOrderedFood(Long foodId);
 
     boolean payForFood(Food food);
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6135f2a1-bd9e-4e38-91f6-e52f976e1c47" name="Changes" comment="pliki nauka">
+    <list default="true" id="6135f2a1-bd9e-4e38-91f6-e52f976e1c47" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/CustomerFoodRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/CustomerFoodRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/EmployeeFoodRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/EmployeeFoodRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/FoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/Food/FoodRepository.java" afterDir="false" />
     </list>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671491817183</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1671658803690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671658803690</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pliki nauka" />
-    <option name="LAST_COMMIT_MESSAGE" value="pliki nauka" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
 </project>

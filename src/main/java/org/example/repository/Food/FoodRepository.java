@@ -1,6 +1,7 @@
 package org.example.repository.Food;
 
 import org.example.domain.Food;
+import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,6 +9,7 @@ import java.util.stream.Stream;
 
 public class FoodRepository implements CustomerFoodRepo,EmployeeFoodRepo{
     @Override
+    @Cacheable ("food")
     public List<Food> getFood() {
         Food meal1 = new Food("pizza",30,1,"szynka,ser,pieczarki" );
         Food meal2 = new Food("Hamburger",20,2,"mięso,sos,sałata,bułka,ser");
@@ -20,16 +22,19 @@ public class FoodRepository implements CustomerFoodRepo,EmployeeFoodRepo{
 
     @Override
     public Food getFoodById(Long foodId) {
-        return getFood().stream().filter(food -> food.getId() == foodId).findFirst().get();
+        return getFood()
+                .stream()
+                .filter(food -> food.getId() == foodId).findFirst().get();
     }
 
     @Override
     public boolean orderFood(Food food) {
-        return false;
+        List <Food> foodToOrder = getFood();
+        return foodToOrder.add(food);
     }
 
     @Override
-    public boolean deleteOrderFood(Long foodId) {
+    public boolean deleteOrderedFood(Long foodId) {
         Food foodToDelete = getFoodById(foodId);
         return getFood().remove(foodToDelete);
     }
@@ -42,6 +47,7 @@ public class FoodRepository implements CustomerFoodRepo,EmployeeFoodRepo{
 
     @Override
     public boolean payForFood(Food food) {
-        return false;
+        Food foodToPay =
+        return ;
     }
 }

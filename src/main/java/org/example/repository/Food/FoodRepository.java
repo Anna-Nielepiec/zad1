@@ -30,7 +30,7 @@ public class FoodRepository implements CustomerFoodRepo,EmployeeFoodRepo{
     @Override
     public boolean orderFood(Food food) {
         List <Food> foodToOrder = getFood();
-        return foodToOrder.add(food);
+        return foodToOrder.add(food);       //nie wiem czy tu jest ok
     }
 
     @Override
@@ -48,6 +48,6 @@ public class FoodRepository implements CustomerFoodRepo,EmployeeFoodRepo{
     @Override
     public boolean payForFood(Food food) {
         Food foodToPay =
-        return ;
+        return ;                           //nie wiem jak to zrobic
     }
 }

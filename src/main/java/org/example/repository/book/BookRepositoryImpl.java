@@ -40,6 +40,8 @@ public class BookRepositoryImpl implements ManageBookRepository, ReadBookReposit
     public Book getBookById(Long bookId) {
         return getBooks().
                 stream().
-                filter(book -> book.getId() == bookId).findFirst().get();
+                filter(book -> book.getId() == bookId).
+                findFirst()
+                .get();
     }
 }

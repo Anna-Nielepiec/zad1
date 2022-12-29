@@ -10,7 +10,7 @@ public interface SellerVehicleRepo {
     boolean deleteVehicle(Long vehicle);
 
 
-    boolean addVehicle(Long vehicle);
+    boolean addVehicle(Vehicle vehicle);
 
 
     List<Vehicle> getVehicle(Vehicle vehicle);

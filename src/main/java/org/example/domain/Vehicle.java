@@ -5,15 +5,16 @@ public class Vehicle {
     private String color;
     private String model;
     private String mark;
-    private int registrationNumber;
+    private String registrationNumber;
 
-    private Long id;
+    private int id;
 
 
     public Vehicle() {
     }
 
-    public Vehicle(String color, String model, String mark, int registrationNumber, Long id) {
+
+    public Vehicle(String color, String model, String mark, String registrationNumber, int id) {
         this.color = color;
         this.model = model;
         this.mark = mark;
@@ -45,21 +46,24 @@ public class Vehicle {
         this.mark = mark;
     }
 
-    public int getRegistrationNumber() {
+    public String getRegistrationNumber() {
         return registrationNumber;
     }
 
-    public void setRegistrationNumber(int registrationNumber) {
+    public void setRegistrationNumber(String registrationNumber) {
         this.registrationNumber = registrationNumber;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
+
+
+
 
 
 }

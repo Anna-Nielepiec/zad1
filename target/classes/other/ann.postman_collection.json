@@ -1,0 +1,101 @@
+{
+	"id": "71700901-ea5c-63f5-5383-c266c714fb19",
+	"name": "ann",
+	"description": "",
+	"order": [
+		"253f6e19-1032-8090-4f78-a5fcdaac39f0",
+		"dd35718c-234f-a46e-2a2b-01d19fbfe854",
+		"aedb0b5c-42e9-8770-825d-da0e7baaf4ff"
+	],
+	"folders": [],
+	"timestamp": 1671296443550,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "253f6e19-1032-8090-4f78-a5fcdaac39f0",
+			"headers": "",
+			"url": "http://localhost:8081/books/4",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "71700901-ea5c-63f5-5383-c266c714fb19",
+			"data": null,
+			"dataMode": "params",
+			"name": "get Book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671296464172,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aedb0b5c-42e9-8770-825d-da0e7baaf4ff",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:8081/books/5",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "71700901-ea5c-63f5-5383-c266c714fb19",
+			"data": [],
+			"dataMode": "params",
+			"name": "delete book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671296482059,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dd35718c-234f-a46e-2a2b-01d19fbfe854",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:8081/books",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "71700901-ea5c-63f5-5383-c266c714fb19",
+			"data": [
+				{
+					"key": "title",
+					"value": "Merry Christmas Songs",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "Marjach Karej",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "6",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "yearOfPublishment",
+					"value": "1900",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "save book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671296473138,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

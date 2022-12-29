@@ -10,5 +10,5 @@ public interface CustomerVehicleRepo {
     Vehicle getVehicleById(Long vehicleId);
 
 
-    List<Vehicle> getVehicle(Vehicle vehicle);
+    List<Vehicle> getVehicle();
 }
